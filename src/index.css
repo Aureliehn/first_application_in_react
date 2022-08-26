@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+  max-width: 320px;
+  max-height: 320px;
+  border: red 3px solid;
+}
+.no_line{
+  text-decoration: none;
+}
+.summary_btn{
+  width: 163px;
+}
+.no_puce{
+  list-style-type: none
+}
+.myModal{
+  color: white;
+  position: fixed;
+  top: 0;
+  background-color:rgba(0, 0,0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
